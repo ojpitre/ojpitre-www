@@ -3,21 +3,10 @@
     }
 
 body {
-
-    margin: auto;
-    width: 640px; 
-    padding: 50px;
-    font-family: 'Lexend Deca', sans-serif; 
-
+    font-family: 'Lucidia', sans-serif; 
     background-color: #101010;
-    color: #ffffff;
-  }
-  h1 {
-    color: #ffffff;
-  }
-  nav a {
-    color: #ffffff;
-  }
-  footer {
-    color: #ffffff;
-  }
+    color: #ffffff;    
+}
+
+a, a:hover, a:active, a:visited { color: white; }
+  
