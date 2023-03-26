@@ -25,9 +25,16 @@ body {
     background-size: cover;
  }
 
-/* Path: index.css */
 /* desktop css with smaller fonts and centered */
 @media (min-width: 480px) {
+    .section {       
+        font-size: 80px;
+        text-align: left;
+    }
+}
+
+/* mobile css with smaller fonts and centered */
+@media (max-width: 480px) {
     .section {       
         font-size: 80px;
         text-align: left;
