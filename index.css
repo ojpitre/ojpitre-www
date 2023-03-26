@@ -36,7 +36,7 @@ body {
 /* mobile css with smaller fonts and centered */
 @media (max-width: 480px) {
     .section {       
-        font-size: 80px;
+        font-size: 180px;
         text-align: left;
     }
 }
