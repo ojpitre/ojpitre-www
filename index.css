@@ -27,15 +27,23 @@ body {
 
 /* desktop css with smaller fonts and centered */
 @media (min-width: 480px) {
-    .section {       
-        font-size: 80px;
+    .myname {       
+        font-size: 115px;
+        text-align: left;
+    }
+    .mytitle {       
+        font-size: 90px;
         text-align: left;
     }
 }
 
 /* mobile css with smaller fonts and centered */
 @media (max-width: 480px) {
-    .section {       
+    .myname {       
+        font-size: 180px;
+        text-align: left;
+    }
+    .mytitle {       
         font-size: 180px;
         text-align: left;
     }
