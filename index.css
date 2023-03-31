@@ -1,21 +1,18 @@
-/* mobile css with huge fonts that take the whole width of the screen */
-
+a,
+a:hover,
+a:active,
+a:visited {
+    color: white;
+}
 
 body {
     font-family: 'Lucidia', sans-serif;
     background-color: #101010;
     color: #ffffff;
     text-align: left;
-    padding: 10%;
-
+    padding-left: 5%;
+    padding-top: 2%;
 }
-
-img
-{
-   margin-top:10px; /*to have the space above the image*/
-   margin-right:10px; /*to have the space under the image*/
-}
-
 
 body {
     background: url(icons/background.png) no-repeat center center fixed;
@@ -25,34 +22,58 @@ body {
     background-size: cover;
  }
 
-/* desktop css with smaller fonts and centered */
-@media (min-width: 480px) {
+/* desktop  */
+@media only screen 
+and (min-width: 1080px) {
     .myname {       
-        font-size: 115px;
+        font-size: 120px;
         text-align: left;
     }
     .mytitle {       
         font-size: 90px;
         text-align: left;
     }
+
+    .img-social img{
+        margin-top: 5px; /*to have the space above the image*/
+        margin-right: 5px; /*to have the space under the image*/
+        width: 70px;
+        height: 70px;
+    }
+
+    .img-badge img{
+        margin-top: 5px; /*to have the space above the image*/
+        
+        width: 120px;
+        height: 120px;
+    }
 }
 
-/* mobile css with smaller fonts and centered */
-@media (max-width: 480px) {
+/* mobile  */
+@media (min-width: 320px)
+and (max-width: 1080px) {
     .myname {       
-        font-size: 180px;
+        font-size: 100px;
         text-align: left;
     }
     .mytitle {       
-        font-size: 180px;
+        font-size: 75px;
         text-align: left;
+    }
+    
+    .img-social img{
+        margin-top: 10px; /*to have the space above the image*/
+        margin-right: 10px; /*to have the space under the image*/
+        width: 60px;
+        height: 60px;
+    }
+
+    .img-badge img{
+        margin-top: 10px; /*to have the space above the image*/
+        margin-right: 10px; /*to have the space under the image*/
+        width: 100px;
+        height: 100px;
     }
 }
 
 
-a,
-a:hover,
-a:active,
-a:visited {
-    color: white;
-}
