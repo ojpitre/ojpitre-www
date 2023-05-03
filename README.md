@@ -1,2 +1,2 @@
-# ojpitreweb
+# ojpitredotai
 Personal website for OJpitre.
