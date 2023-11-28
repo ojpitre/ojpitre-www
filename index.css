@@ -11,7 +11,7 @@ body {
     color: #ffffff;
     text-align: left;
     padding-left: 5%;
-    padding-top: 10%;
+    padding-top: 5%;
 }
 
 body {
@@ -35,10 +35,10 @@ and (min-width: 1080px) {
     }
 
     .img-social img{
-        margin-top: 5px; /*to have the space above the image*/
-        margin-right: 5px; /*to have the space under the image*/
-        width: 70px;
-        height: 70px;
+        margin-top: 10px; /*to have the space above the image*/
+        margin-right: 10px; /*to have the space under the image*/
+        width: 85px;
+        height: 85px;
     }
 
     .img-badge img{
