@@ -35,10 +35,10 @@ and (min-width: 1080px) {
     }
 
     .img-social img{
-        margin-top: 10px; /*to have the space above the image*/
-        margin-right: 10px; /*to have the space under the image*/
-        width: 85px;
-        height: 85px;
+        margin-top: 5px; /*to have the space above the image*/
+        margin-right: 5px; /*to have the space under the image*/
+        width: 90px;
+        height: 90px;
     }
 
     .img-badge img{
