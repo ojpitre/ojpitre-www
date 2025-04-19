@@ -44,8 +44,8 @@ and (min-width: 1080px) {
     .img-badge img{
         margin-top: 5px; /*to have the space above the image*/
         
-        width: 120px;
-        height: 120px;
+        width: 122px;
+        height: 122px;
     }
 }
 
@@ -53,11 +53,11 @@ and (min-width: 1080px) {
 @media (min-width: 320px)
 and (max-width: 1080px) {
     .myname {       
-        font-size: 100px;
+        font-size: 125px;
         text-align: left;
     }
     .mytitle {       
-        font-size: 75px;
+        font-size: 100px;
         text-align: left;
     }
     
@@ -70,7 +70,7 @@ and (max-width: 1080px) {
 
     .img-badge img{
         margin-top: 10px; /*to have the space above the image*/
-        margin-right: 10px; /*to have the space under the image*/
+        margin-right: 5px; /*to have the space under the image*/
         width: 100px;
         height: 100px;
     }
