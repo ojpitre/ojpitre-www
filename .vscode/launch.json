@@ -8,7 +8,7 @@
             "type": "msedge",
             "request": "launch",
             "name": "Open index.html",
-            "file": "e:\\ojpitredotai\\index.html"
+            "file": "e:\\ojpitre-www\\index.html"
         }
     ]
 }
